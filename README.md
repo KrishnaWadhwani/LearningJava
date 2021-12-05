@@ -6,4 +6,4 @@ Instructor: Abdul Bari
 
 Total Lectures: 353
 
-Codes Written By: Krishna Wadhwani
+Java Codes Written By: Krishna Wadhwani
