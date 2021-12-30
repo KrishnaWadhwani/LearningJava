@@ -1,46 +1,23 @@
 package com.javacourse;
 
-import java.util.ArrayList;
-import java.util.Scanner;
+import java.util.Arrays;
 
-public class Test {
-    public static ArrayList<String> words;
-    public static int spaces = 0;
+public class Test{
     public static void main(String[] args){
-        Scanner scin = new Scanner(System.in);
-        String s = scin.nextLine();
-        System.out.println(countSpaces(s));
-        addWordsInArrayList(s);
-        printWords();
+
     }
-    public static int countSpaces(String s){
-        for(int i = 0; i < s.length(); i++){
-            if(String.valueOf(s.charAt(i)).matches(" ")){
-                spaces++;
+    public static int[] closestNumber(int a[], int v)
+    {
+        Arrays.sort(a);
+        int address = 0;
+        int value = 0;
+        int difference = a[0];
+        for (int i = 0 ; i < a.length; i++){
+            if ((a[i]-v)<difference){
+                address = i;
+                value = a[i];
             }
         }
-        return spaces;
-    }
-    public static void addWordsInArrayList(String s){
-        String currentWord = "";
-        words = new ArrayList<String>(s.length());
-        String currentLetter;
-        for(int j = 0; j < spaces+1; j++){
-            for (int i = 0; i < s.length(); i++){
-                currentLetter = String.valueOf(s.charAt(i));
-                if(!(currentLetter.matches(" "))) {
-                    currentWord += currentLetter;
-                }
-                else{
-                    words.add(currentWord);
-                    currentWord = "";
-                }
-            }
-        }
-    }
-    public static void printWords(){
-        for (int i = 0; i < words.size(); i++){
-            System.out.println(words.get(i)+"\n");
-        }
+        return new int [] {address, value};
     }
 }
