@@ -1,4 +1,4 @@
-package com.javacourse;
+package TestFiles;
 
 import java.util.Arrays;
 

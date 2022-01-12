@@ -1,7 +1,5 @@
 package com.javacourse.chapter5.Operators_And_Expressions;
 
-import com.javacourse.ConvertToBinary;
-
 public class Practice_BitwiseOperators {
     public static void main(String[] args){
         /*int x = 10, y = 6, z;
