@@ -25,7 +25,6 @@ public class Polymorphism_Using_Overloading {
         Test test = new Test();
         // here number of argument and type of argument decide which method to call
         // name is same but actions are different
-        //
         test.max(10,5);
         test.max(10,5, 15);
     }

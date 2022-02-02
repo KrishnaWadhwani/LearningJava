@@ -1,4 +1,4 @@
-package TestFiles;
+package com.javacourse.TestFiles;
 
 public class DateValidator {
     public static boolean isValidDateOrNot(String Date){

@@ -1,4 +1,4 @@
-package TestFiles;
+package com.javacourse.TestFiles;
 
 public class ConvertToBinary {
     public static void convertToBinary(int x){
