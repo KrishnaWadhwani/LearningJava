@@ -15,8 +15,7 @@ public class Game {
         System.out.println("Game has started");
         while (true){
             userIn = scin.nextInt();
-            if (
-                    userIn>t){
+            if (userIn>t){
                 score++;
                 System.out.println(userIn+" is greater than the hidden number");
             }
