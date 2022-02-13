@@ -1,7 +1,5 @@
 package com.javacourse.chapter19.Multithreading.InterThreadCommunication;
 
-// Please check notes before reading this
-
 class MyData{
     int value;
     boolean flag = true;
