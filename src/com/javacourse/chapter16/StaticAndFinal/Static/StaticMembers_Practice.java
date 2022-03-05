@@ -15,7 +15,7 @@ class Test{
 public class StaticMembers_Practice {
     public static void main(String[] args){
         Test test = new Test();
-        System.out.println("Test");
+        System.out.println("com.javacourse.chapter23.JavaIOStreams.TestFiles.Test");
         test.show();
         test.x = 30;
         test.y = 50;

@@ -23,7 +23,7 @@ class SmartPhone extends Phone implements ICamera, IMusicPlayer{
 
     public SmartPhone(String brandName, String phoneName){
         System.out.println("Purchasing: "+brandName+"'s"+" "+phoneName);
-        System.out.println("Jyada Mehenga Hai!, Ghar Chal Ke Apne Saare Apps Ishi Pe Hi Test Karoonga!!!");
+        System.out.println("Jyada Mehenga Hai!, Ghar Chal Ke Apne Saare Apps Ishi Pe Hi com.javacourse.chapter23.JavaIOStreams.TestFiles.Test Karoonga!!!");
     }
 
     // Camera

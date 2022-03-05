@@ -22,7 +22,7 @@ public class FinallyBlock {
                 throw new Exception();
             }
             catch (Exception e){
-                System.out.println("Test");
+                System.out.println("com.javacourse.chapter23.JavaIOStreams.TestFiles.Test");
             }
             System.out.println("Final Message");
         }

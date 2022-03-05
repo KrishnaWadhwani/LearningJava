@@ -5,7 +5,7 @@ import java.util.Scanner;
 class WordChecker extends Thread{
     Scanner scin = new Scanner(System.in);
     public void getWord(){
-        System.out.println("Test");
+        System.out.println("com.javacourse.chapter23.JavaIOStreams.TestFiles.Test");
     }
     @Override
     public void run(){
