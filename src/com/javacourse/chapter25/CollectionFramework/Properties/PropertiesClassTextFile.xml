@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Laptop</comment>
+<entry key="Brand">Dell</entry>
+<entry key="Processor">i3</entry>
+<entry key="OS">Linux</entry>
+<entry key="Model">Inspiron</entry>
+</properties>

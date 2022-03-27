@@ -1,5 +1,6 @@
 package com.javacourse.chapter22.LambdaExpressions.MethodReference;
 
+@FunctionalInterface
 interface LambdaExpression {
     void display(String str);
 }

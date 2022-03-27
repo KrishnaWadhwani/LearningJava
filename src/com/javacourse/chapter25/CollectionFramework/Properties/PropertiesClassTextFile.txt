@@ -1,0 +1,6 @@
+#Laptop
+#Fri Mar 25 17:17:14 IST 2022
+Brand=Dell
+Processor=i3
+OS=Linux
+Model=Inspiron
