@@ -41,7 +41,7 @@ public class ArraysClass {
         // Using Comparator
 
         Integer[] newArray = {10, 20, 30, 40};
-        Arrays.sort(newArray, new MyNewComparator()); // comparator is a generic class that's why it cannot handle int, so we made and Integer array
+        Arrays.sort(newArray, new MyNewComparator()); // comparator is a generic class that's why it cannot handle int, so we made an Integer array
 
         for (Integer x : newArray){
             System.out.println(x);
